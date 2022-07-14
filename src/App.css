@@ -1,0 +1,16 @@
+import React from 'react'
+function Nav() {
+  return (
+    <div className='navBar'>
+    <ul>
+        <li><p>HOME</p></li>
+        <li><p>FURNITURE</p></li>
+        <li><p>CONTACT</p></li>
+        <li><p>ABOUT</p></li>
+    </ul>
+    </div>
+    
+  )
+}
+
+export default Nav
