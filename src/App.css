@@ -4,9 +4,10 @@ function Nav() {
     <div className='navBar'>
     <ul>
         <li><p>HOME</p></li>
-        <li><p>FURNITURE</p></li>
-        <li><p>CONTACT</p></li>
-        <li><p>ABOUT</p></li>
+        <li><p>Booking</p></li>
+        <li><p>User</p></li>
+        <li><p>Admin</p></li>
+        <li><p>logout</p></li>
     </ul>
     </div>
     
