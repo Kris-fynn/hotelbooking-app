@@ -1,17 +1,61 @@
-import React from 'react'
-function Nav() {
-  return (
-    <div className='navBar'>
-    <ul>
-        <li><p>HOME</p></li>
-        <li><p>Booking</p></li>
-        <li><p>User</p></li>
-        <li><p>Admin</p></li>
-        <li><p>logout</p></li>
-    </ul>
-    </div>
-    
-  )
+.main-container .navigation {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 96.94%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
-export default Nav
+/* .main-container .navigation .list{
+  position: absolute;
+} */
+/* .main-container .navigation nav li {
+  display: flex;
+  flex-direction:row;
+} */
+.main-container .navigation .list{
+  padding-left: 0px;
+  padding-right: 36px;
+  font-family: 'Montserrat', sans-serif;
+}
+.main-container .navigation #img-logo{
+  height:auto;
+  width: 300px;
+  position: relative;
+  right:12em;
+  color: #FDFFFC;
+}
+.main-container .navigation #button1{
+  padding-left: 0px;
+  border-radius:10px;
+  margin-left:5rem;
+  border-style: solid;
+  padding: 14px 24px;
+  border-color:#E8E9ED;
+  border-width: 1px;
+}
+.main-container .navigation #button1:hover{
+  background-color: #FCB331 ;
+}
+.main-container .navigation .button1:hover{
+  color:#FDFFFC;
+}
+.main-container .navigation #button2{
+  padding-left: 0px;
+  border-radius:10px;
+  margin-left:1rem;
+  border-style: solid;
+  padding: 14px 24px;
+  border-color:#E8E9ED;
+  border-width: 1px;
+}
+.main-container .navigation #button2:hover{
+  background-color: #FCB331 ;
+}
+.main-container .navigation .button2:hover{
+  color:#FDFFFC;
+}

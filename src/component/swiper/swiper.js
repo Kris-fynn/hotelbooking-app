@@ -45,7 +45,7 @@ export default function swiper() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img  src={} alt="img1" /> </SwiperSlide>
+        <SwiperSlide><img  src={image1} alt="img1" /> </SwiperSlide>
         <SwiperSlide><img  src={image2} alt="img2" /> </SwiperSlide>
         <SwiperSlide><img  src={image3} alt="img3" /> </SwiperSlide>
         <SwiperSlide><img  src={image4} alt="img4" /> </SwiperSlide>
